@@ -1,0 +1,24 @@
+# 构建输出
+*.apk
+*.aab
+*.class
+
+# IDE
+*.iml
+.idea/
+.DS_Store
+
+# Gradle
+.gradle/
+**/build/
+/captures/
+
+# 本地配置
+local.properties
+
+# 缓存
+.cxx
+.externalNativeBuild
+
+# 日志
+*.log
