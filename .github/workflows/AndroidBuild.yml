@@ -25,6 +25,7 @@ jobs:  # jobs:工作任务（一个或多个）
       # 修改权限
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
+        shell: bash
 
       # 设置Gradle环境（Android项目生成APK）
       - name: Build with Gradle  # 名称
