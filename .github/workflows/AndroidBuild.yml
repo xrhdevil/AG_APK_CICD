@@ -23,8 +23,9 @@ jobs:  # jobs:工作任务（一个或多个）
           distribution: 'temurin' # 发行版
 
       # 修改权限
-      - name: Set execute permission
+      - name: Grant execute permission for gradlew
         run: chmod +x./gradlew
+        shell: bash
 
       # 设置Gradle环境（Android项目生成APK）
       - name: Build with Gradle  # 名称
